@@ -1,0 +1,51 @@
+/* Overall container styling */
+.mail {
+    background-color: #094379;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings and paragraph styling */
+.mail h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    /* color: #FFA726; */
+}
+
+.mail p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.mail a {
+    color: #FFF;
+}
+
+/* Button container styling
+.button {
+    margin-top: 10px;
+} */
+
+/* Button styling
+.hello-button {
+    color: #094379;
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hello-button:hover {
+    background-color: #fff;
+    color: #094379;
+    border-color: #094379;
+}
+ */

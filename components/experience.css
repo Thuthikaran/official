@@ -1,0 +1,15 @@
+.experience {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.experience h1 {
+    padding: 10px;
+    color: #FFA726;
+}
+
+.experience p {
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+}

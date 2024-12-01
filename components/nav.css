@@ -1,0 +1,47 @@
+nav {
+    padding: 12px 0px;
+    background-color: #094379;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+li:nth-child(2) a {
+    /* Ensures padding works consistently */
+    background-color: #FFA726;
+    /* A more modern green shade */
+    color: #333;
+    /* White text for better contrast */
+    padding: 2px 4px;
+    /* Adds balanced spacing */
+    border-radius: 8px;
+    /* Slightly smoother corners */
+    text-decoration: none;
+    /* Removes underline for a cleaner look */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Adds a hover effect */
+}
+
+li:nth-child(2) a:hover {
+    background-color: #FFA726;
+    /* Green for hover state */
+    color: #fff;
+    /* White text for contrast */
+    transform: scale(1.1);
+    padding: 4px 8px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}

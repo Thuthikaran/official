@@ -1,0 +1,58 @@
+header {
+    background-color: #094379;
+    padding-top: 40px;
+    line-height: 1.5;
+}
+
+header .container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 56px;
+    color: #fff;
+}
+
+header h2 {
+    font-size: 46px;
+    color: #FFA726;
+    /* color: #39D353; */
+}
+
+header h3 {
+    font-size: 26px;
+    color: #fff;
+}
+
+@media (max-width:1099px) {
+    header h1 {
+        font-size: 46px;
+    }
+
+    header h2 {
+        font-size: 36px;
+    }
+
+    header h3 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:821px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    header img {
+        max-width: 80%;
+    }
+}
+
+/* This is where i have to edit this more */
+/* @media (max-width:424) {
+    
+} */
